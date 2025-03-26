@@ -5,7 +5,8 @@
 //Una función que devuelva la diferencia en días entre dos fechas del mismo año (sólo tenemos en cuenta dia y mes)
 //ME FALTA EL PROMPT
 
-let n1 = parseIntprompt ('Inserte un número entero: ');
-function contarCifras(){
-    if ()
-}
+let numero = parseInt(prompt('Inserte un número entero: '));
+    alert('La cifra es: ' + numero.length);
+// function contarCifras(){
+//     if ()
+// }
