@@ -1,5 +1,5 @@
 //Ordena alfabéticamente un array con 7 palabras puedes usar el algoritmo de la burbuja
-let palabras = ["manzana", "perro", "gato", "piña", "piedra", "gato", "casa", "animal"];
+let palabras = ["manzana", "perro", "gato", "piña", "piedra", "burro", "casa", "animal"];
 
 for (let i = 0; i < palabras.length - 1; i++) {
     for (let j = 0; j < palabras.length - 1 - i; j++) {
@@ -10,3 +10,5 @@ for (let i = 0; i < palabras.length - 1; i++) {
         }
     }
 }
+
+console.log(palabras);

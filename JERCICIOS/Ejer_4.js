@@ -3,14 +3,16 @@ let usuarioCorrecto = 'Javascript';
 let passwordCorrecta = 'piopiopio';
 let intentos = 3;
 
-do {
-     intentos--; //n = n -1
-    }
-while (intentos >= 0) {
+// do {
+//     usuarioCorrecto = prompt('Inserta tu usuario');
+//     passwordCorrecta = prompt('Inserta tu contraseña');
+//     intentos--; //n = n -1
+//     }
+while (intentos > 0) {
     let usuario = prompt('Nombre de usuario');
     let password = prompt('Password');
 
-    if (usuario === usuarioCorrecto && contraseña === contraseñaCorrecta) {
+    if (usuario === usuarioCorrecto && password === passwordCorrecta) {
         alert("Acceso concedido");//no me sale esta alerta...
     
     } else {
