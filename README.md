@@ -1,2 +1,2 @@
-# JS_ARRAY
-Ejercicios saludo y frutas
+# JAVASCRIPT
+Ejercicios 5_5/6_1/7_2/7_3
